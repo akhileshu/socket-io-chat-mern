@@ -1,0 +1,41 @@
+/* NotFoundPage.css */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f6f6; /* Set a background color */
+}
+
+.not-found-content {
+  text-align: center;
+}
+
+.not-found-heading {
+  font-size: 2rem;
+  color: #333; /* Set a text color */
+}
+
+.not-found-text {
+  font-size: 1.2rem;
+  color: #777; /* Set a text color */
+}
+
+.not-found-suggestion {
+  font-size: 1rem;
+  color: #444; /* Set a text color */
+  margin-top: 20px;
+}
+
+.not-found-suggestion a {
+  color: #007bff; /* Set a link color */
+  text-decoration: none;
+}
+/* Media query for mobile devices with a maximum width of 767px */
+@media (max-width: 767px) {
+  .not-found-content {
+    padding-top: 40px;
+  }
+}

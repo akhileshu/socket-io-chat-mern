@@ -1,0 +1,2 @@
+ # in cloudinary image upload 
+ it worked with fetch and not with axios reason:the issue you're facing with Axios not working for the Cloudinary API while Fetch works could be related to the way Axios handles requests and headers by default. Axios has some built-in defaults that may differ from the behavior of the Fetch API.

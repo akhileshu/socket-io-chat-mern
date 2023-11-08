@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+.TaskAddForm {
+  max-width: 100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.chatPage {
+  display: flex;
+}
+.chatPage .searchUser {
+  background-color: rgb(255, 212, 212);
+}
+.chatPage .sidebar {
+  min-height: 80vh;
+  background-color: rgb(255, 160, 160);
+}
+.navBar {
+  display: flex;
+  width: 100vw;
+  background-color: rgb(228, 255, 169);
+}
+.navBar div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.createGroupChat {
+  background-color: #3c73ff;
+  color: white;
+}
+.grpUsers {
+  border: 2px solid salmon;
+  background-color: white;
+  color: #3c73ff;
+}
+.activeChat {
+  color: white;
+  background-color: #3c73ff;
+}
+.chatBox {
+  position: relative;
+  height: 100vh;
+}
+.sendMsgForm {
+  position: absolute;
+  bottom: 70px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 80vw;
+  overflow-y: scroll;
+}
+
+.self {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  width: fit-content;
+  background-color: greenyellow;
+  margin-left: auto; /* Move "self" to the right */
+}
+
+.partner {
+   display: flex;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  width: fit-content;
+  background-color: rgb(165, 255, 254);
+  margin-right: auto; /* Move "partner" to the left */
+}
+.senderPic{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
